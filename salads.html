@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <title>Salads</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="starter-template.css" rel="stylesheet">
+    <link rel="stylesheet" href="salads.css" type="text/css">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="js/ie-emulation-modes-warning.js"></script>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Salads Practice</h1>
+    </div>
+
+    <div id="container1" class="container">
+
+        <div class="row">
+
+            <div id=chickenCeasar class="col-sm-4">
+                <h2>Chicken Ceasar</h2>
+                <button id="chickenCeasarShowButton" type="button" class="btn btn-lg btn-primary">Show</button>
+                <button id="chickenCeasarHideButton" type="button" class="btn btn-lg btn-danger">Hide</button>
+                <div id=chickenCeasarIngredients>
+                    <h3>Ingredients:</h3>
+                    <ul>
+                        <li>Romaine</li>
+                        <li>Grilled Chicken</li>
+                        <li>Shaved Parmesan</li>
+                        <li>Multigrain Croutons</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div id=thaiChickenCrunch class="col-sm-4">
+                <h2>Thai Chicken Crunch</h2>
+                <button id="thaiChickenCrunchShowButton" type="button" class="btn btn-lg btn-primary">Show</button>
+                <button id="thaiChickenCrunchHideButton" type="button" class="btn btn-lg btn-danger">Hide</button>
+                <div id=thaiChickenCrunchIngredients>
+                    <h3>Ingredients:</h3>
+                    <ul>
+                        <li>Romaine & Red Cabbage</li>
+                        <li>Grilled Chicken</li>
+                        <li>Carrots</li>
+                        <li>Celery</li>
+                        <li>Crispy Wontons</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div id=buffaloChicken class="col-sm-4">
+                <h2>Buffalo Chicken</h2>
+                <button id="buffaloChickenShowButton" type="button" class="btn btn-lg btn-primary">Show</button>
+                <button id="buffaloChickenHideButton" type="button" class="btn btn-lg btn-danger">Hide</button>
+                <div id=buffaloChickenIngredients>
+                    <h3>Ingredients:</h3>
+                    <ul>
+                        <li>Romaine</li>
+                        <li>Buffalo Chicken</li>
+                        <li>Pepper Jack Cheese</li>
+                        <li>Celery</li>
+                        <li>Tortilla Strips</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+
+            <div id=mediterraneanMix class="col-sm-4">
+                <h2>Mediterranean Mix</h2>
+                <button id="mediterraneanMixShowButton" type="button" class="btn btn-lg btn-primary">Show</button>
+                <button id="mediterraneanMixHideButton" type="button" class="btn btn-lg btn-danger">Hide</button>
+                <div id=mediterraneanMixIngredients>
+                    <h3>Ingredients:</h3>
+                    <ul>
+                        <li>Romaine</li>
+                        <li>Organic Chickpeas</li>
+                        <li>Feta</li>
+                        <li>Kalamata Olives</li>
+                        <li>Lentils</li>
+                        <li>Cucumbers</li>
+                        <li>Pita Chips</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div id=asianSesameGrain class="col-sm-4">
+                <h2>Asian Sesame Grain</h2>
+                <button id="asianSesameGrainShowButton" type="button" class="btn btn-lg btn-primary">Show</button>
+                <button id="asianSesameGrainHideButton" type="button" class="btn btn-lg btn-danger">Hide</button>
+                <div id=asianSesameGrainIngredients>
+                    <h3>Ingredients:</h3>
+                    <ul>
+                        <li>Romaine & Red Cabbage & Organic Mesclun</li>
+                        <li>Grilled Chicken</li>
+                        <li>Wheat Berries</li>
+                        <li>Organic Quinoa</li>
+                        <li>Edamame</li>
+                        <li>Crispy Wontons</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <h3></h3>
+    </footer>
+
+    <!-- Custom JavaScript
+    ================================================== -->
+    <script src="salads.js"></script>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>
+        window.jQuery || document.write('<script src="js/vendor/jquery.min.js"><\/script>')
+    </script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+
+</body>
+
+</html>
